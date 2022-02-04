@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-t": "atom-theme-switcher:switch",
+    "ctrl-alt-a": "atom-theme-switcher:auto"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "atom-theme-switcher",
+  "description": "Theme switching package for atom.io with auto-switching support",
+  "version": "0.0.0",
+  "keywords": [
+    "atom-package",
+    "atom-theme-switcher"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlebpushek/atom-theme-switcher.git"
+  },
+  "homepage": "https://github.com/xlebpushek/atom-theme-switcher#readme",
+  "bugs": {
+    "url": "https://github.com/xlebpushek/atom-theme-switcher/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "xlebpushek"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://www.buymeacoffee.com/xlebpushek"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "configSchema": {
+    "uiThemeOne": {
+      "title": "UI theme one",
+      "order": 1,
+      "type": "string",
+      "default": "one-light-ui"
+    },
+    "uiThemeTwo": {
+      "title": "UI theme two",
+      "order": 2,
+      "type": "string",
+      "default": "one-dark-ui"
+    },
+    "syntaxThemeOne": {
+      "title": "Syntax theme one",
+      "order": 3,
+      "type": "string",
+      "default": "one-light-syntax"
+    },
+    "syntaxThemeTwo": {
+      "title": "Syntax theme two",
+      "order": 4,
+      "type": "string",
+      "default": "one-dark-syntax"
+    },
+    "autoThemeSwitching": {
+      "title": "Auto theme switching",
+      "order": 5,
+      "type": "boolean",
+      "default": true
+    },
+    "updateInterval": {
+      "title": "Update interval",
+      "order": 5,
+      "type": "integer",
+      "default": 60,
+      "minimum": 1
+    },
+    "firstTimePoint": {
+      "title": "First time point",
+      "description": "Enter the time for the first theme change in hh:mm format",
+      "order": 6,
+      "type": "string",
+      "default": "08:00"
+    },
+    "secondTimePoint": {
+      "title": "Second time point",
+      "description": "Enter the time for the second theme change in hh:mm format",
+      "order": 7,
+      "type": "string",
+      "default": "20:00"
+    }
+  },
+  "main": "./lib/atom-theme-switcher"
+}

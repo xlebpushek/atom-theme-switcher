@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Atom theme switcher",
+          "submenu": [
+            {
+              "label": "Switch theme",
+              "command": "atom-theme-switcher:switch"
+            },
+            {
+              "label": "Auto switch theme",
+              "command": "atom-theme-switcher:auto"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
