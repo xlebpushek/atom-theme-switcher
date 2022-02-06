@@ -2,7 +2,7 @@
 
 ### Preview
 
-[![Something went wrong. Image not loaded](https://github.com/xlebpushek/atom-theme-switcher/blob/master/.github/media/images/vector/cap.svg)](https://github.com/xlebpushek/atom-theme-switcher/blob/master/.github/media/images/vector/cap.svg) <br><br>
+[![Something went wrong. Image not loaded](https://github.com/xlebpushek/atom-theme-switcher/blob/main/.github/media/images/vector/cap.svg)](https://github.com/xlebpushek/atom-theme-switcher/blob/main/.github/media/images/vector/cap.svg) <br><br>
 
 ### Description
 
